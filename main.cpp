@@ -6,6 +6,7 @@ using namespace std;
 int main()
 {
 	int choix = 0 ;
+	string reponse;
 
 	cout << endl << endl<< "**************************************************************************" << endl;
 	
@@ -22,6 +23,25 @@ int main()
 	cout << "3) Quitter" << endl;
 	
 	cin >> choix;
+	
+	switch(choix)
+	{
+		case 1:
+			cout << "Jésus marie Joseph, qui est le curé ?" << endl << endl;
+			cin >> reponse;
+			cout << endl;
+			if (reponse == "Jesus" || reponse == "jesus" || reponse == "jésus" || reponse == "Jésus")
+			{
+				cout << "Correct ! Bien joué c'est Jésus qui marie Joseph" << endl;
+			}else
+			{
+				cout << "Dommage c'est pas la bonne réponse!" << endl;
+			}
+			
+			break;			
+	}
+	
+	
 	
 	}while(choix != 3);
 }

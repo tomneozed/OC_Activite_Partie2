@@ -19,3 +19,5 @@ Le dossier contient 5 fichiers:
 -Le README.txt que vous êtes en train de lire !
 
 
+Ce projet contient 6 commits.
+
